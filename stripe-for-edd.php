@@ -97,13 +97,13 @@ final class StripeForEDD {
 
 		// Load admin files only.
 		if ( is_admin() ) {
-			require_once STRIPEFOREDD_PLUGIN_DIR . 'admin/filters.php';
-			require_once STRIPEFOREDD_PLUGIN_DIR . 'admin/actions.php.php';
+			require_once STRIPEFOREDD_PLUGIN_DIR . '/admin/filters.php';
+			require_once STRIPEFOREDD_PLUGIN_DIR . '/admin/actions.php.php';
 		}
 
-		require_once STRIPEFOREDD_PLUGIN_DIR . 'includes/filters.php';
-		require_once STRIPEFOREDD_PLUGIN_DIR . 'includes/actions.php';
-		require_once STRIPEFOREDD_PLUGIN_DIR . 'includes/helpers.php';
+		require_once STRIPEFOREDD_PLUGIN_DIR . '/includes/filters.php';
+		require_once STRIPEFOREDD_PLUGIN_DIR . '/includes/actions.php';
+		require_once STRIPEFOREDD_PLUGIN_DIR . '/includes/helpers.php';
 	}
 
 	/**
